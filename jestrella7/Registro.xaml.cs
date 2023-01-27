@@ -25,7 +25,7 @@ namespace jestrella7
         {
             var datos = new Estudiante
             {
-                Nombre = txtNombre.Text, Usuario = txtUsuario.Text, Contrasena = txtContrasena.Text,
+                Nombre = txtNombre.Text, Usuario = txtUsuario.Text, Contrasena = txtContrasena.Text
             };
             connection.InsertAsync(datos);
             txtNombre.Text = "";
